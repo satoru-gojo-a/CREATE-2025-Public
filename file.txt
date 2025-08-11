@@ -1,3 +1,100 @@
 this is a new file
  welcome to week 4 of think code create!
  
+qiwei@□□□□ŵ˹ MINGW64 ~/Documents/CREATE-2025-Public (main)
+$ wwd
+bash: wwd: command not found
+
+qiwei@□□□□ŵ˹ MINGW64 ~/Documents/CREATE-2025-Public (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+qiwei@□□□□ŵ˹ MINGW64 ~/Documents/CREATE-2025-Public (main)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config set advice.addEmptyPathspec false"       
+
+qiwei@□□□□ŵ˹ MINGW64 ~/Documents/CREATE-2025-Public (main)
+$ git add .
+
+qiwei@□□□□ŵ˹ MINGW64 ~/Documents/CREATE-2025-Public (main)
+$ git add file.txt
+
+qiwei@□□□□ŵ˹ MINGW64 ~/Documents/CREATE-2025-Public (main)
+$ git commit -m "KezDaBez"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'qiwei@����ŵ˹.(none)')
+
+qiwei@□□□□ŵ˹ MINGW64 ~/Documents/CREATE-2025-Public (main)
+$ ^C
+
+qiwei@□□□□ŵ˹ MINGW64 ~/Documents/CREATE-2025-Public (main)
+$ git config --global user.email "qiweiliu0615@gmail.com"
+
+qiwei@□□□□ŵ˹ MINGW64 ~/Documents/CREATE-2025-Public (main)
+$ ^C
+
+qiwei@□□□□ŵ˹ MINGW64 ~/Documents/CREATE-2025-Public (main)
+$ git config --global user.name "KezDaBez"
+
+qiwei@□□□□ŵ˹ MINGW64 ~/Documents/CREATE-2025-Public (main)
+$ git commit -m "Lezd"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+qiwei@□□□□ŵ˹ MINGW64 ~/Documents/CREATE-2025-Public (main)
+$ git commit -m “file.txt work"
+>
+>
+>
+> git commit -m "file.txt "
+> ^C
+
+qiwei@□□□□ŵ˹ MINGW64 ~/Documents/CREATE-2025-Public (main)
+$ git commit -m "file.txt work"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+qiwei@□□□□ŵ˹ MINGW64 ~/Documents/CREATE-2025-Public (main)
+$ git add file.txt
+
+qiwei@□□□□ŵ˹ MINGW64 ~/Documents/CREATE-2025-Public (main)
+$ $ git commit -m "file.txt work"
+bash: $: command not found
+
+qiwei@□□□□ŵ˹ MINGW64 ~/Documents/CREATE-2025-Public (main)
+$  git commit -m "file.txt work"
+[main a0d69a3] file.txt work
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+qiwei@□□□□ŵ˹ MINGW64 ~/Documents/CREATE-2025-Public (main)
+$ git push
+info: please complete authentication in your browser...
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 319 bytes | 319.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/satoru-gojo-a/CREATE-2025-Public
+   c9689ba..a0d69a3  main -> main
